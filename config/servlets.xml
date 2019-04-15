@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<servlets>
+	<servlet>
+		<url>/tomcat/toRegister.do</url>
+		<className>servlet.PreRegisterServlet</className>
+	</servlet>
+	<servlet>
+		<url>/tomcat/Register.do</url>
+		<className>servlet.RegisterServlet</className>
+	</servlet>
+	<servlet>
+		<url>/tomcat/toLogin.do</url>
+		<className>servlet.PreLoginServlet</className>
+	</servlet>
+	<servlet>
+		<url>/tomcat/Login.do</url>
+		<className>servlet.LoginServlet</className>
+	</servlet>
+	<servlet>
+		<url>/tomcat/toUpdate.do</url>
+		<className>servlet.UpdateServlet</className>
+	</servlet>	
+</servlets>
